@@ -1,0 +1,3 @@
+snoozeLib	KEYWORD1
+snooze	KEYWORD1
+wakeup	KEYWORD1
