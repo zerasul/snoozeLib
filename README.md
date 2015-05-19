@@ -22,5 +22,5 @@ This library is tested on Arduino UNO and Arduino Mega(atmel 328p and atmel Mega
  ```
  
 ---
-License GNU Public License v3.0. 
+License GNU General Public License v3.0. 
 
