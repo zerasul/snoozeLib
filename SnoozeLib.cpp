@@ -63,6 +63,8 @@ void SnoozeLib::snooze(long milliseconds){
   if (milliseconds >= 64)      { sleep(WDTO_60MS); milliseconds -= 60; }
   if (milliseconds >= 32)      { sleep(WDTO_30MS); milliseconds -= 30; }
   if (milliseconds >= 16)      { sleep(WDTO_15MS); milliseconds -= 15; }
+  wdt_disable();
+  sleep_disable();
 }
 
 /******************************************************************************************
